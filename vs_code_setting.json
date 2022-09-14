@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "none",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "black",
+    // "editor.formatOnSave": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.quickSuggestionsDelay": 100,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "editor.minimap.enabled": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.env.windows": {
+        "PATH": "/c/Users/yzhhu/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/yzhhu/bin:/c/gurobi811/win64/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Program Files/MySQL/MySQL Utilities 1.6:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn:/c/Program Files (x86)/Microsoft SQL Server/140/Tools/Binn:/c/Program Files/Microsoft SQL Server/140/Tools/Binn:/c/Program Files/Microsoft SQL Server/140/DTS/Binn:/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/HashiCorp/Vagrant/bin:/c/Program Files/Amazon/AWSCLIV2:/c/Users/yzhhu/AppData/Local/Continuum/anaconda3:/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/Library/mingw-w64/bin:/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/Library/usr/bin:/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/Library/bin:/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/Scripts:/c/Users/yzhhu/AppData/Local/Microsoft/WindowsApps:/c/Program Files/heroku/bin:/c/Users/yzhhu/AppData/Roaming/TinyTeX/bin/win32:/c/spark/bin:/c/jdk/bin:/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2022.1.2/bin:/c/Users/yzhhu/AppData/Local/Programs/Microsoft VS Code/bin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+    },
+    "python.condaPath": "/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/python.exe",
+    "editor.fontSize": 11,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "window.zoomLevel": 2,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "c:\\Users\\yzhhu\\Desktop\\outsied_help2\\program_as_package\\venv\\Scripts\\python.exe",
+    // "python.defaultInterpreterPath": "/c/Users/yzhhu/AppData/Local/Continuum/anaconda3",
+    "python.linting.pylintArgs": [
+        "--enable=F,E,W"
+    ]
+}

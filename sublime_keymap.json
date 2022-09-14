@@ -1,0 +1,86 @@
+[
+  {
+    "keys": [
+      "command+l"
+    ],
+    "command": "reindent"
+  },
+  {
+    "keys": [
+      "ctrl+shift+s"
+    ],
+    "command": "auto_save"
+  }, 
+  {
+    "keys": [
+      "ctrl+alt+f"
+    ],
+    "command": "js_format"
+  },
+    { "keys": ["ctrl+alt+e"], "command": "st_select_connection" },
+    { "keys": ["ctrl+e", "ctrl+e"], "command": "st_execute" },
+    { "keys": ["ctrl+e", "ctrl+a"], "command": "st_execute_all" },
+    { "keys": ["ctrl+e", "ctrl+z"], "command": "st_execute_excel" },
+    { "keys": ["ctrl+e", "ctrl+x"], "command": "st_explain_plan" },
+    { "keys": ["ctrl+e", "ctrl+h"], "command": "st_history" },
+    { "keys": ["ctrl+e", "ctrl+s"], "command": "st_show_records" },
+    { "keys": ["ctrl+e", "ctrl+d"], "command": "st_desc_table" },
+    { "keys": ["ctrl+e", "ctrl+t"], "command": "st_stat_table" },
+    { "keys": ["ctrl+e", "ctrl+f"], "command": "st_desc_function" },
+    { "keys": ["ctrl+e", "ctrl+b"], "command": "st_format" },
+    { "keys": ["ctrl+e", "ctrl+q"], "command": "st_save_query" },
+    // { "keys": ["ctrl+e", "ctrl+r"], "command": "st_remove_saved_query" },
+    { "keys": ["ctrl+e", "ctrl+l"], "command": "st_list_queries", "args": {"mode" : "run"}},
+    { "keys": ["ctrl+e", "ctrl+o"], "command": "st_list_queries", "args": {"mode" : "open"}},
+    {"command": "st_display_func_doc", "keys": ["ctrl+alt+d"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_select_current_query", "keys": ["ctrl+q"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_add_subquery_wrap", "keys": ["ctrl+e", "ctrl+w"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_reconnect_impala", "keys": ["ctrl+e", "ctrl+r"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_interrupt_impala_execution", "keys": ["ctrl+e", "ctrl+i"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_go_to_select", "keys": ["ctrl+e", "ctrl+g"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_refresh_impala_meta", "keys": ["ctrl+e", "ctrl+m"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    {"command": "st_clear_result_cache", "keys": ["ctrl+e", "ctrl+c"], "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.sql"}
+        ]},
+    { "keys": ["shift+tab"], "command": "unindent", "context":
+        [
+            { "key": "preceding_text", "operator": "regex_match", "operand": "^[\t ]*" }
+        ]
+    },
+    { "keys": ["shift+tab"], "command": "unindent", "context":
+        [
+            { "key": "text", "operator": "regex_contains", "operand": "\n" }
+        ]
+    },
+    { "keys": ["shift+tab"], "command": "prev_field", "context":
+        [
+            { "key": "has_prev_field", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["alt+`"], "command": "toggle_terminus_panel" },  
+    { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
+    { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "file"}},
+    { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+1"], "command": "duplicate_line" },
+    { "keys": ["ctrl+2"], "command": "upper_case" },
+    { "keys": ["ctrl+3"], "command": "lower_case" },
+    { "keys": ["ctrl+4"], "command": "save_workspace_as" },
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+
+]
