@@ -90,7 +90,7 @@ function set_bash_prompt () {
 
   # Set the bash prompt variable.
   PS1="
-${GREEN}\u@root${COLOR_NONE}: ${YELLOW}\w${COLOR_NONE}$ {BRANCH} ${PYTHON_VIRTUALENV}
+${GREEN}\u@root${COLOR_NONE}: ${YELLOW}\w${COLOR_NONE} ${BRANCH}${PYTHON_VIRTUALENV}
 ${PROMPT_SYMBOL} "
 }
 
