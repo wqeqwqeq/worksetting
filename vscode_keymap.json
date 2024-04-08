@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+[
+
+    {"key": "ctrl+1",
+     "command": "editor.action.copyLinesDownAction",
+     "when": "editorFocus"
+    },
+    {"key": "ctrl+d",
+     "command": "editor.action.deleteLines",
+     "when": "textInputFocus && !editorReadonly"
+    }
+    ,
+    {"key": "ctrl+shift+r",
+     "command": "workbench.action.gotoSymbol"
+    },
+  {
+    "key": "ctrl+b",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+},
+
+{
+ "key": "ctrl+2",
+ "command": "editor.action.insertSnippet",
+ "when": "editorTextFocus && editorLangId == 'python'",
+ "args": {
+ "snippet": "# %%"
+
+  }
+}
+
+
+]
