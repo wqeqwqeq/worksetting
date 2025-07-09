@@ -1,0 +1,68 @@
+[
+    {
+        "key": "f1",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+1",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    // {
+    //     "key": "cmd+b",
+    //     "command": "editor.action.goToImplementation",
+    //     "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    // },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    {
+        "key": "cmd+2",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'python'",
+        "args": {
+            "snippet": "# %%"
+        }
+    },
+    {
+        "key": "enter",
+        "command": "Accept Cursor Tab Suggestions",
+        "when": "inlineSuggestionVisible && editorTextFocus"
+    },
+    // Remove the old Tab binding so it’s free again
+    {
+        "key": "tab",
+        "command": "-Accept Cursor Tab Suggestions"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.saveWorkspaceAs"
+    },
+    {
+        "key": "cmd+alt+p",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "cmd+alt+f",
+        "command": "extension.prettifyJSON"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "workbench.files.action.compareFileWith"
+    },
+    {
+        "key": "cmd+e cmd+e",
+        "command": "sqlite.runSelectedQuery"
+    }
+]
