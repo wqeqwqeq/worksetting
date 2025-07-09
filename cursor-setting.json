@@ -1,0 +1,63 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.settings.editor": "json",
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "black",
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.quickSuggestionsDelay": 100,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.minimap.enabled": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.condaPath": "/c/Users/yzhhu/AppData/Local/Continuum/anaconda3/python.exe",
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "C:\\Users\\\\Anaconda3\\python.exe",
+    "python.linting.pylintArgs": [
+        "--enable=F,E,W"
+    ],
+    "snowflake.showExecuteAboveStatement.enabled": false,
+    "snowflake.queryHistory.itemLimit": 300,
+    "python.analysis.extraPaths": [],
+    "databricks.sync.destinationType": "repo",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "notebook.output.textLineLimit": 200,
+    "interactiveWindow.executeWithShiftEnter": true,
+    "snowflake.connectionsConfigFile": "C:\\Users\\282710.KMX\\.snowflake\\connections.toml",
+    "terminal.integrated.localEchoStyle": "dim",
+    "azureFunctions.showProjectWarning": false,
+    "files.hotExit": "onExitAndWindowClose",
+    "workbench.editor.customLabels.enabled": true,
+    "workbench.editor.customLabels.patterns": {
+        "*/exported-template-edwdevsharedbatch.bicep": "sbx->dev",
+        "/Untitled-1": "sbx"
+    },
+    "azureFunctions.showPythonVenvWarning": false,
+    "bicep.decompileOnPaste": false,
+    "[bicep]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.insertFinalNewline": true,
+        "editor.suggestSelection": "first",
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggest.showWords": false
+    },
+    "cursor.diffs.useCharacterLevelDiffs": true,
+    "cursor.cmdk.useThemedDiffBackground": false,
+    "jupyter.askForKernelRestart": false
+}
